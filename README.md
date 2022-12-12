@@ -1,5 +1,5 @@
 # Telco Customer Churn
-Description: Predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs.
+Predict behavior to retain customers, Analyze all relevant customer data and develop focused customer retention programs.
 The raw data contains 7043 rows (customers) and 21 columns (features).
 
 <b>Dataset :</b> <a>https://www.kaggle.com/datasets/blastchar/telco-customer-churn</a>
