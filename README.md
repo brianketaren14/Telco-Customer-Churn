@@ -4,7 +4,7 @@ The raw data contains 7043 rows (customers) and 21 columns (features).
 
 <b>Dataset :</b> <a>https://www.kaggle.com/datasets/blastchar/telco-customer-churn</a>
 
-<b>Dashboard :</b> <a>https://datastudio.google.com/reporting/c3b0ecea-acfa-4109-81ac-b3d29373bfe9<a/>
+<b>Dashboard :</b> <a>https://datastudio.google.com/reporting/61718e18-0add-4a5c-83c7-e4ebdc94ad8f<a/>
 
 ### Data Dictionary :
 - <b>customerID</b> - Customer's ID.
