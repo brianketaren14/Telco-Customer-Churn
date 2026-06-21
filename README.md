@@ -6,6 +6,7 @@ This project analyzes customer data from a telecommunications company to predict
 - Use descriptive analytics and machine learning to understand churn behavior.
 - Evaluate customer attributes, subscription details, and service usage patterns.
 - Build a churn prediction model that helps prioritize retention efforts.
+- Handle class imbalance and tune model hyperparameters for reliable performance.
 
 ## Dataset
 - Source: [Kaggle Telco Customer Churn IBM Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
@@ -42,7 +43,8 @@ This project analyzes customer data from a telecommunications company to predict
 ## Key Objectives
 - Analyze churn drivers using customer profile and service data
 - Perform data cleaning, feature engineering, and exploratory analysis
-- Train and evaluate models to predict churn probability
+- Handle imbalanced classes using SMOTETomek sampling
+- Train and evaluate tuned models to predict churn probability
 - Present findings and recommendations for customer retention
 
 ## Process
@@ -50,8 +52,9 @@ This project analyzes customer data from a telecommunications company to predict
 2. Data cleaning and missing value handling
 3. Feature engineering and categorical encoding
 4. Exploratory data analysis and visualization
-5. Model training, validation, and performance evaluation
-6. Insights extraction and business recommendations
+5. Imbalanced sampling and model training
+6. Hyperparameter tuning and performance evaluation
+7. Insights extraction and business recommendations
 
 ## Interesting Insights
 - 26.6% of customers churned while 73.4% remained.
@@ -72,10 +75,11 @@ This project analyzes customer data from a telecommunications company to predict
 - Electronic Check users have the highest churn rate at 45.3%.
 
 ## Model Results
-- Evaluation metric: ROC AUC
-- Best model: SVC with SMOTE
-- Best AUC score: 0.74
-- The model demonstrates good separation of churn and non-churn cases for this dataset.
+- Evaluation metrics: recall and ROC AUC
+- Best model: SVC with Bayesian hyperparameter tuning and SMOTETomek sampling
+- Best recall: 84%
+- Best ROC AUC score: 0.74
+- This model balances churn detection with discrimination ability on the imbalanced test set.
 
 ## Conclusion
 The analysis shows the strongest churn drivers are contract type, service add-ons, and payment method. Customers on month-to-month plans, using fiber optic service, lacking support or security, or paying by electronic check are most likely to churn.
