@@ -17,6 +17,9 @@ This project analyzes customer data from a telecommunications company to predict
 ## Dashboard
 - Interactive report: [Google Data Studio](https://datastudio.google.com/reporting/61718e18-0add-4a5c-83c7-e4ebdc94ad8f)
 
+## Website
+- Interactive Website: [Interactive Website](https://telco-customer-churn-hmbhwryj8-brianketaren14s-projects.vercel.app)
+
 ## Data Dictionary
 - **customerID** - Unique customer identifier
 - **gender** - Customer gender
@@ -76,8 +79,8 @@ This project analyzes customer data from a telecommunications company to predict
 
 ## Model Results
 - Evaluation metrics: recall and ROC AUC
-- Best model: SVC with Bayesian hyperparameter tuning and SMOTETomek sampling
-- Best recall: 84%
+- Best model: SVC 
+- Best recall: 79%
 - Best ROC AUC score: 0.74
 - This model balances churn detection with discrimination ability on the imbalanced test set.
 
