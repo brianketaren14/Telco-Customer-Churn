@@ -2,6 +2,14 @@
 
 This project analyzes customer data from a telecommunications company to predict customer churn and support retention strategies. The goal is to identify customers at high risk of leaving and provide insights for improving customer loyalty.
 
+## Dashboard
+- Interactive report: [Google Data Studio](https://datastudio.google.com/reporting/61718e18-0add-4a5c-83c7-e4ebdc94ad8f)
+<img width="1910" height="1316" alt="image" src="https://github.com/user-attachments/assets/fa78170e-eeb6-4a10-9d1a-01a9d7875ecf" />
+
+## Website
+- Interactive Website: [Interactive Website](https://telco-customer-churn-hmbhwryj8-brianketaren14s-projects.vercel.app)
+<img width="1910" height="2172" alt="image" src="https://github.com/user-attachments/assets/1c93da4d-94b7-4854-9ac7-9c019946c52e" />
+
 ## Project Overview
 - Use descriptive analytics and machine learning to understand churn behavior.
 - Evaluate customer attributes, subscription details, and service usage patterns.
@@ -13,12 +21,6 @@ This project analyzes customer data from a telecommunications company to predict
 - Records: 7,043 customers
 - Features: 21 columns
 - Churn rate: 26.6% of customers left the service
-
-## Dashboard
-- Interactive report: [Google Data Studio](https://datastudio.google.com/reporting/61718e18-0add-4a5c-83c7-e4ebdc94ad8f)
-
-## Website
-- Interactive Website: [Interactive Website](https://telco-customer-churn-hmbhwryj8-brianketaren14s-projects.vercel.app)
 
 ## Data Dictionary
 - **customerID** - Unique customer identifier
