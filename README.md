@@ -7,7 +7,7 @@ This project analyzes customer data from a telecommunications company to predict
 <img width="1910" height="1316" alt="image" src="https://github.com/user-attachments/assets/fa78170e-eeb6-4a10-9d1a-01a9d7875ecf" />
 
 ## Website
-- Interactive Website: [Interactive Website](https://telco-customer-churn-hmbhwryj8-brianketaren14s-projects.vercel.app)
+- Interactive Website: [Interactive Website](https://telco-customer-churn-eta.vercel.app)
 <img width="1910" height="2172" alt="image" src="https://github.com/user-attachments/assets/1c93da4d-94b7-4854-9ac7-9c019946c52e" />
 
 ## Project Overview
@@ -81,9 +81,9 @@ This project analyzes customer data from a telecommunications company to predict
 
 ## Model Results
 - Evaluation metrics: recall and ROC AUC
-- Best model: SVC 
-- Best recall: 79%
-- Best ROC AUC score: 0.74
+- Best model: Random Forest + Bayesian Tuning 
+- Best recall: **80%**
+- Best ROC AUC score: **78%**
 - This model balances churn detection with discrimination ability on the imbalanced test set.
 
 ## Conclusion
