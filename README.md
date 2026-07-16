@@ -22,36 +22,6 @@ This project analyzes customer data from a telecommunications company to predict
 - Features: 21 columns
 - Churn rate: 26.6% of customers left the service
 
-## Data Dictionary
-- **customerID** - Unique customer identifier
-- **gender** - Customer gender
-- **SeniorCitizen** - Whether the customer is a senior citizen
-- **Partner** - Whether the customer has a partner
-- **Dependents** - Whether the customer has dependents
-- **tenure** - Number of months the customer has been with the company
-- **PhoneService** - Whether the customer has a phone service
-- **MultipleLines** - Whether the customer has multiple phone lines
-- **InternetService** - Customer internet service type
-- **OnlineSecurity** - Whether the customer has online security add-on
-- **OnlineBackup** - Whether the customer has online backup add-on
-- **DeviceProtection** - Whether the customer has device protection add-on
-- **TechSupport** - Whether the customer has tech support add-on
-- **StreamingTV** - Whether the customer has streaming TV service
-- **StreamingMovies** - Whether the customer has streaming movies service
-- **Contract** - Customer contract term
-- **PaperlessBilling** - Whether the customer uses paperless billing
-- **PaymentMethod** - Customer payment method
-- **MonthlyCharges** - Monthly charge amount
-- **TotalCharges** - Total charges to date
-- **Churn** - Whether the customer has churned (Yes or No)
-
-## Key Objectives
-- Analyze churn drivers using customer profile and service data
-- Perform data cleaning, feature engineering, and exploratory analysis
-- Handle imbalanced classes using SMOTETomek sampling
-- Train and evaluate tuned models to predict churn probability
-- Present findings and recommendations for customer retention
-
 ## Process
 1. Data loading and validation
 2. Data cleaning and missing value handling
